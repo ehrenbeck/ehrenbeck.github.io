@@ -54,6 +54,14 @@ was the revelation that better user runtime estimates do not necessarily produce
 
 <p>For now, I have no additional questions about these papers, but as I work more with these concepts I expect some to arise.</p>
 
+  <h3>Week 2</h3>
+  <p>I was given some more papers to read on. Some on MUMMI modeling and others on the tools used to collect data.</p>
+  <p>I was given some data from a program, CG, that was run on Mira. My task was to upload this data to the MUMMI database.
+  A tool maide was designed for recording data during a program run and uploading said data to the database. The data that I had was broken into two pieces:
+PAPI data and MonEQ data. So, I used a script in maide to convert the MonEQ data into a power.txt file. Then I manually created a *.p000 file.
+This file incorporated data from the PAPI file as well as the power.txt file. Once I had created all the *.p000 files, I attempted to
+upload them to the database with a pearl script included in maide. I was given an error: "Server says: Error opening file". As of now, I'm not sure
+why I am getting this error. I will contact Professor Wu to see if he may know why I cannot upload the files.</p>
     </div>
 
   </body>
