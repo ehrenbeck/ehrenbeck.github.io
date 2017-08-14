@@ -62,7 +62,23 @@ PAPI data and MonEQ data. So, I used a script in maide to convert the MonEQ data
 This file incorporated data from the PAPI file as well as the power.txt file. Once I had created all the *.p000 files, I attempted to
 upload them to the database with a pearl script included in maide. I was given an error: "Server says: Error opening file". As of now, I'm not sure
 why I am getting this error. I will contact Professor Wu to see if he may know why I cannot upload the files.</p>
+
+<h3>Week 3</h3>
+<p>I read several more papers. Some dealing with fault prediction and one on anomoly detection as well as scheduling policy. I took more notes on these papers. My main focus this week was to finish
+uploading the data from CG being run on ANL Mira to the MuMMI database.. As mentioned in the previous week's report, I had an error
+uploading the data to MuMMI. I was able to resolve this problem and successfuly uploaded the data
+to the MuMMI database. When I originally created the files to be uploaded to the database, I mistakenly
+created a separate file for each node card number and erroneously equated node card number to to processor number. I noticed this mistake when I saw
+two defined patterns in the plots of power consumption whereas other examples I looked at had only one.
+
+ As it turns out,
+I only needed to create a file the first node card as the data from the other node cards is irrelevant. </p>
+
+
+
     </div>
+
+
 
   </body>
   <head>
