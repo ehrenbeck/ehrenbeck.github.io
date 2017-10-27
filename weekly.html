@@ -80,6 +80,22 @@ I reread some of the papers I read in Week 3 as I was still a little unsure of t
 to help me understand what I had read. I met with Professor Lan to discuss the possibility of continuing to work on the project throughout part of the upcoming semester.
 </p>
 
+<h3>Fall Project</h3>
+<h4>Brief Summary</h4>
+<p>
+  For the Fall Project I was to take four programs run on ANL Mira and upload power information about them to
+  the MUMMI_R database. The four programs were: cg, ft, lu, and stream. Unlike the previous project I was not given PAPI data for the runs. In the previous project I had already uploaded data about cg,
+  so I was familiar with the parameters it was run under. For ft, and lu, I needed information
+  about the ClassE input size and the number of iterations it was run. I was able to find this information
+  inside the log from the ANL Mira run. cg, ft, and lu all had a ClassE input size. When I tried to find the ClassE input size for Stream,
+  my search was unsuccesful. After an email exchange with Yuping Fan, who had originally run these programs on ANL mira, I learned
+  that there was no ClassE input size for Stream. As it turns out, Stream is a benchmark that measures memory bandwith. Furthermore when I needed to
+  include the number of iterations as input, I was unable to do so because Stream does not define the number of iterations.
+  In order to upload the data to the database, I needed to create p000 files with information that detailed the run on ANL Mira. I then used a script to upload the p000 file to the databse.
+</p>
+<p>The next section details the layout of the p000 files that I created.</p>
+<h4>Layout of the p000 File</h4>
+
     </div>
 
 
