@@ -93,8 +93,22 @@ to help me understand what I had read. I met with Professor Lan to discuss the p
   include the number of iterations as input, I was unable to do so because Stream does not define the number of iterations.
   In order to upload the data to the database, I needed to create p000 files with information that detailed the run on ANL Mira. I then used a script to upload the p000 file to the databse.
 </p>
+<h4>Converting the MonEQ Data</h4>
+<p>For the power information to be uploaded to the database, it needed to be in a different format
+than the MonEQ output given to me. I used a script included in Maide to convert it to a suitable format
+to be included in the p000 file.</p>
 <p>The next section details the layout of the p000 files that I created.</p>
 <h4>Layout of the p000 File</h4>
+<p>
+The first section of the p000 file is reserved for metadata about the run and some information about the program.
+</p>
+<p>
+  <ul style="list-style-type:circle">
+  <li>Run Date: The Date of the ANL Mira run. I found this information in the MonEQ outut file.</li>
+  <li>Executable Name: The name of the executable run on ANL Mira. For example cg runnning on 1024 cores was cg-1024-classE</li>
+  <li>Runtime: </li>
+  </ul>
+</p>
 
     </div>
 
