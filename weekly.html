@@ -81,7 +81,7 @@ to help me understand what I had read. I met with Professor Lan to discuss the p
 </p>
 
 <h3>Fall Project</h3>
-<h4>Brief Summary</h4>
+<h4>Summary</h4>
 <p>
   For the Fall Project I was to take four programs run on ANL Mira and upload power information about them to
   the MUMMI_R database. The four programs were: cg, ft, lu, and stream. Unlike the previous project I was not given PAPI data for the runs. In the previous project I had already uploaded data about cg,
@@ -106,8 +106,27 @@ The first section of the p000 file is reserved for metadata about the run and so
   <ul style="list-style-type:circle">
   <li>Run Date: The Date of the ANL Mira run. I found this information in the MonEQ outut file.</li>
   <li>Executable Name: The name of the executable run on ANL Mira. For example cg runnning on 1024 cores was cg-1024-classE</li>
-  <li>Runtime: </li>
+  <li>Runtime: The total runtime of the program [From converted MonEQ file]</li>
+  <li>Start Timestamp: The start timestamp [From converted MonEQ file]</li>
+  <li>End Timestamp: The end timestamp [From converted MonEQ file]</li>
+  <li>Number of Processors: Number of processors the program was run on </li>
+  <li>Number of MPI: Number of MPI threads. (See <a href="https://computing.llnl.gov/tutorials/mpi/">MPI</a> to learn about MPI)</li>
+  <li>Number of Threads: 1</li>
+  <li>Total cores per node: 4</li>
+  <li>Core speed: 1.600000 GHz</li>
+  <li>Owner Name: Name used to register program </li>
+  <li>Email: email used to register program </li>
+  <li>Application Name: The name of the application. {cg,lu,ft,stream}</li>
+  <li>Version: [From output log from run]</li>
+  <li>System name: ANL Mira</li>
   </ul>
+  <p>The next section includes input information. Here I added the ClassE input size for cg, lu, and ft. (Stream, as I mentioned above had no ClassE input size.)
+  Also in this section, if the program was run with FTI, the checkpoints are specified.
+  </p>
+  <p>
+    The final section is just the converted MonEQ file copied over to the p000 file.
+  </p>
+
 </p>
 
     </div>
