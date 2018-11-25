@@ -8,12 +8,12 @@ baseurl: "/"
 site_heading: >
     ehrenbeck 
 
-email: your@email.com
-author: yourname
+email: behrenbe@hawk.iit.edu
+author: Blake Ehrenbeck
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best
+    Blake Ehrenbeck
 
 # This will what will show against &copy; in the footer
 copyright: accent
