@@ -13,8 +13,7 @@ author: Blake Ehrenbeck
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    I'm a Senior at the Illinois Institute of Technology studying Computer Science with a specialization in Data Science, 
-    starting to look for roles in the tech industry. I'm particularly interested in Artificial Intelligence and Data Analytics. 
+    I'm a Senior at the Illinois Institute of Technology studying Computer Science with a specialization in Data Science. I'm particularly passionate about Artificial Intelligence and Data Analytics. 
 
 # This will what will show against &copy; in the footer
 copyright: Blake Ehrenbeck
@@ -23,8 +22,7 @@ copyright: Blake Ehrenbeck
 intro: true         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    I'm a Senior at the Illinois Institute of Technology studying Computer Science with a specialization in Data Science, 
-    starting to look for roles in the tech industry. I'm particularly interested in Artificial Intelligence and Data Analytics.
+    I'm a Senior at the Illinois Institute of Technology studying Computer Science with a specialization in Data Science. I'm particularly passionate about Artificial Intelligence and Data Analytics.
 
 permalink: /:title.html
 
